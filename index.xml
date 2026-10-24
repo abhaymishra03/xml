@@ -1,0 +1,19 @@
+<employees>
+    <employee>
+        <id>1</id>
+        <name>John Doe</name>
+        <position>Software Engineer</position>
+        <department>Development</department>
+    </employee>
+    <employee>
+        <id>2</id>
+        <name>Jane Smith</name>
+        <position>Project Manager</position>
+        <department>Management</department>
+    </employee>
+    <employee>
+        <id>3</id>
+        <name>Emily Johnson</name>
+        <position>UX Designer</position>
+        <department>Design</department>
+    </employee>
