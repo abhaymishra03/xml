@@ -1,17 +1,27 @@
+<!DOCTYPE employees [
+    <!ELEMENT employees (employee+)>
+    <!ELEMENT employee (id, name, position, department)>
+    <!ATTLIST employee status (active | inactive) #REQUIRED>
+    <!ELEMENT id (#PCDATA)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT position (#PCDATA)>
+    <!ELEMENT department (#PCDATA)>
+]> 
+
 <employees>
-    <employee>
+    <employee status="active">
         <id>1</id>
         <name>John Doe</name>
         <position>Software Engineer</position>
         <department>Development</department>
     </employee>
-    <employee>
+    <employee status="inactive">
         <id>2</id>
         <name>Jane Smith</name>
         <position>Project Manager</position>
         <department>Management</department>
     </employee>
-    <employee>
+    <employee status="active">
         <id>3</id>
         <name>Emily Johnson</name>
         <position>UX Designer</position>
