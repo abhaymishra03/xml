@@ -1,0 +1,8 @@
+<!DOCTYPE student system "student.dtd">
+<student>   
+    <id>1</id>
+    <name>John Doe</name>
+    <major>Computer Science</major>
+    <year>Senior</year>
+    <gpa>3.8</gpa>  
+</student>  

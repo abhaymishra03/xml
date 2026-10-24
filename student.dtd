@@ -1,0 +1,1 @@
+<!ELEMENT Student (id, name, major, year, gpa)>
